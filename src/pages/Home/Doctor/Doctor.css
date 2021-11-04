@@ -1,0 +1,13 @@
+/* .single-img{
+    width: 350px;
+    height: 250px;
+} */
+.doctor{
+    background-color: rgb(229 245 240);
+    padding: 20px;
+    border-radius: 20px;
+}
+.doctor:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
