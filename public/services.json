@@ -5,7 +5,8 @@
         "experience": "15+ years",
         "title": "Surgery Specialist",
         "description": "Hello,its me Dr Fouzhou.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/1Rk16Qy/pexels-gustavo-fring-4173239.jpg"
+        "img": "https://i.ibb.co/1Rk16Qy/pexels-gustavo-fring-4173239.jpg",
+        "fee": 500
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "experience": "10+ years",
         "title": "Medicine Specialist",
         "description": "Hello,its me Dr. Musa Kabir.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/WptMqYS/pexels-gustavo-fring-4173251.jpg"
+        "img": "https://i.ibb.co/WptMqYS/pexels-gustavo-fring-4173251.jpg",
+        "fee": 750
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "experience": "8+ years",
         "title": "Dentist Specialist",
         "description": "Hello,its me Dr. Ataur Rahman.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/hRQm9F0/pexels-karolina-grabowska-7195113.jpg"
+        "img": "https://i.ibb.co/hRQm9F0/pexels-karolina-grabowska-7195113.jpg",
+        "fee": 800
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "experience": "15+ years",
         "title": "Gynaecology & Obstetrics Specialist",
         "description": "Hello,its me Dr. Rabi Chandra.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/bgMNHM9/pexels-linkedin-sales-navigator-2182979.jpg"
+        "img": "https://i.ibb.co/bgMNHM9/pexels-linkedin-sales-navigator-2182979.jpg",
+        "fee": 700
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "experience": "12+ years",
         "title": "Eye Specialist",
         "description": "Hello,its me Dr. Morgan Ellis.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/6gB08K2/pexels-anna-shvets-3846009.jpg"
+        "img": "https://i.ibb.co/6gB08K2/pexels-anna-shvets-3846009.jpg",
+        "fee": 500
     },
     {
         "id": 6,
@@ -45,6 +50,7 @@
         "experience": "22 years",
         "title": "Surgery Specialist",
         "description": "Hello,its me Dr. Hattey John.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/KVChBqd/pexels-tima-miroshnichenko-5355868.jpg"
+        "img": "https://i.ibb.co/KVChBqd/pexels-tima-miroshnichenko-5355868.jpg",
+        "fee": 700
     }
 ]
