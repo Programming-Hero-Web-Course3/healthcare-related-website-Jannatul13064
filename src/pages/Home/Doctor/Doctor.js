@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Doctor.css';
 
 const Doctor = (props) => {
-    const { name, img, title, description } = props.doctor;
+    const { id, name, img, title, description, fee } = props.doctor;
     return (
 
         <div className="doctor">
@@ -10,6 +11,9 @@ const Doctor = (props) => {
             <h2>{title}</h2>
             <h4>{name}</h4>
             <p>{description}</p>
+            <Link to={`/booking/${id}/${name}/${title}/${fee}`}>
+                <button className="btn btn-warning">Book Now</button>
+            </Link>
         </div>
     );
 };

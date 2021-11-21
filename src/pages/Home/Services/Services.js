@@ -7,13 +7,16 @@ const Services = () => {
     return (
         <div>
             <h2>Hello from Services</h2>
-            <div className="row">
-                {
-                    services.map(serv => <Serv
-                        key={serv.id}
-                        serv={serv}
-                    ></Serv>)
-                }
+            <div className="container">
+                <div className="row">
+                    {
+                        services.map(serv => <Serv
+                            key={serv.id}
+                            serv={serv}
+                        ></Serv>)
+                    }
+                </div>
+
             </div>
         </div>
     );
