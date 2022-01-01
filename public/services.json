@@ -5,7 +5,7 @@
         "experience": "15+ years",
         "title": "Surgery Specialist",
         "description": "Hello,its me Dr Fouzhou.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/1Rk16Qy/pexels-gustavo-fring-4173239.jpg",
+        "img": "https://i.ibb.co/F4pC34R/service-1.jpg",
         "fee": 500
     },
     {
@@ -14,7 +14,7 @@
         "experience": "10+ years",
         "title": "Medicine Specialist",
         "description": "Hello,its me Dr. Shima Mallick.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/WptMqYS/pexels-gustavo-fring-4173251.jpg",
+        "img": "https://i.ibb.co/sJC11Ly/service-2.jpg",
         "fee": 750
     },
     {
@@ -23,7 +23,7 @@
         "experience": "8+ years",
         "title": "Dentist Specialist",
         "description": "Hello,its me Dr. Ataur Rahman.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/hRQm9F0/pexels-karolina-grabowska-7195113.jpg",
+        "img": "https://i.ibb.co/6v49y39/service-3.jpg",
         "fee": 800
     },
     {
@@ -32,7 +32,7 @@
         "experience": "15+ years",
         "title": "Gynaecology & Obstetrics Specialist",
         "description": "Hello,its me Dr. Rabi Chandra.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/bgMNHM9/pexels-linkedin-sales-navigator-2182979.jpg",
+        "img": "https://i.ibb.co/YbKH2bD/service-4.jpg",
         "fee": 700
     },
     {
@@ -41,7 +41,7 @@
         "experience": "12+ years",
         "title": "Eye Specialist",
         "description": "Hello,its me Dr. Morgan Ellis.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/6gB08K2/pexels-anna-shvets-3846009.jpg",
+        "img": "https://i.ibb.co/XZ0JJ4m/service-5.jpg",
         "fee": 500
     },
     {
@@ -50,7 +50,7 @@
         "experience": "22 years",
         "title": "Surgery Specialist",
         "description": "Hello,its me Dr. Hattey John.Let us know your problem and take a special care",
-        "img": "https://i.ibb.co/KVChBqd/pexels-tima-miroshnichenko-5355868.jpg",
+        "img": "https://i.ibb.co/CK4jJr9/service-6.jpg",
         "fee": 700
     }
 ]

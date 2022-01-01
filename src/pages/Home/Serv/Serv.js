@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Serv = (props) => {
     const { name, title, fee, img } = props.serv;
     return (
