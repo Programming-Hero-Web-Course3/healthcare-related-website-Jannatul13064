@@ -11,25 +11,11 @@ const useFirebase = () => {
     const googleAuthProvider = new GoogleAuthProvider();
     const githubAuthProvider = new GithubAuthProvider();
     const signInWithGoogle = () => {
-        signInWithPopup(auth, googleAuthProvider)
-            .then(result => {
-                setUser(result.user)
-            })
-            .catch((error) => {
-                console.log(error.message);
-            })
-
+        return signInWithPopup(auth, googleAuthProvider)
     };
     /// Github Sign In
     const signInWithGithub = () => {
-        signInWithPopup(auth, githubAuthProvider)
-            .then(result => {
-                setUser(result.user)
-            })
-            .catch((error) => {
-                console.log(error.message);
-            })
-
+        return signInWithPopup(auth, githubAuthProvider)
     }
     const handleLogOut = () => {
 
