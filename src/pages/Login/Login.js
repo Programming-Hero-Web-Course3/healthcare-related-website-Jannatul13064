@@ -13,6 +13,8 @@ const Login = () => {
     // console.log('Came From', location.state?.from);
 
     const { signInWithGoogle, signInWithGithub } = useAuth();
+
+    //// WE use here handleGoogleSignIn & handleGithubSignIn cause we want to set our user required Destination or Path.///
     const handleGoogleSignIn = () => {
         signInWithGoogle()
             .then(result => {
