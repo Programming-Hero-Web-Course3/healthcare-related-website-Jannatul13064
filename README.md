@@ -2,7 +2,7 @@
 
 
 
-## 🚀 About Me
+## 🚀 Author Information
 * Jannatul Islam
 * Full Stack Developer
 
@@ -13,7 +13,8 @@
 - React-DOM
 - Dynamic Routing
 - Firebase Authentication
-- Interegrated Authentication
+- Integrated Authentication
 - React-Render (Private Route Setup)
 - Redirect Authentication
 - Can Upload local File
+- Responsive Web Design with React Bootstrap
