@@ -6,6 +6,8 @@ import initializeAuthentication from "../pages/Login/Firebase/firebase.init";
 initializeAuthentication();
 const useFirebase = () => {
     const [user, setUser] = useState([]);
+    // const [email, setEmail] = useState('');
+    // const [password, setPassword] = useState('');
 
     const auth = getAuth();
     const googleAuthProvider = new GoogleAuthProvider();
@@ -17,6 +19,7 @@ const useFirebase = () => {
     const signInWithGithub = () => {
         return signInWithPopup(auth, githubAuthProvider)
     }
+
     const handleLogOut = () => {
 
         signOut(auth).then(() => {
@@ -25,6 +28,20 @@ const useFirebase = () => {
             console.error(error);
         });
     };
+
+    // ///Registration System
+    // const handleEmailChange = e => {
+    //     setEmail(e.target.value);
+    // }
+
+    // const handlePassword = e => {
+    //     setPassword(e.target.value);
+    // }
+    // const handleRegistration = e => {
+    //     console.log(email, password);
+    //     return createUserWithEmailAndPassword(auth, email, password)
+
+    // }
 
     //Observer user state
     useEffect(() => {
@@ -40,7 +57,9 @@ const useFirebase = () => {
         user,
         handleLogOut,
         signInWithGoogle,
-        signInWithGithub
+        signInWithGithub,
+
+
     }
 }
 export default useFirebase;

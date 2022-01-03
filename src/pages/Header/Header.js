@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import Login from '../Login/Login';
 
 
 
@@ -10,6 +11,7 @@ import './Header.css';
 
 const Header = () => {
     const { user, handleLogOut } = useAuth();
+    const { name } = Login()
     console.log(user)
 
     return (
@@ -37,7 +39,7 @@ const Header = () => {
                             </div>
                         </Nav>
                         <Nav>
-                            <Nav.Link >User : {user.displayName}</Nav.Link>
+                            <Nav.Link >User : {user.displayName || name}</Nav.Link>
                             <div>
                                 <img height='40px' width='50px' src={user.photoURL} alt="UserPhoto" />
                             </div>
